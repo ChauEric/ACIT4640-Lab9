@@ -1,3 +1,13 @@
 # 4640-w9-lab-start-w25
 
-See lab instructions on D2L
+## Packer Steps
+packer init .
+packer validate .
+packer build .
+
+## Terraform Steps
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
